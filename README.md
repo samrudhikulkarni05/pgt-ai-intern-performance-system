@@ -4,7 +4,8 @@
 
 <div align="center">
 
-<img src="assets/images/pgt_logo.png" width="120"/>
+![pgt](https://github.com/user-attachments/assets/89013851-d2d1-4cfd-a3c7-bb1c2cacb6b4)
+
 
 # 📊 Intern Performance Tracking System  
 ### 🤖 AI-Driven Internship Analytics Platform  
