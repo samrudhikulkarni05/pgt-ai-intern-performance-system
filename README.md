@@ -7,7 +7,7 @@
 ![pgt](https://github.com/user-attachments/assets/89013851-d2d1-4cfd-a3c7-bb1c2cacb6b4)
 
 
-# 📊 Intern Performance Tracking System  
+# 📊 InternTrack
 ### 🤖 AI-Driven Internship Analytics Platform  
 
 🚀 **PGT Global Network – AIML Internship Mega Project**
@@ -21,6 +21,9 @@
   <img src="https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/AI-Powered-green?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/>
+
+![WhatsApp Image 2026-01-22 at 8 22 15 PM](https://github.com/user-attachments/assets/ea71410a-4648-494b-a20c-20965f358e74)
+
 </p>
 
 </div>
@@ -185,41 +188,33 @@ It converts raw intern data into:
 ## 📁 Project Structure
 
 ```bash
-Intern-Performance-Tracking-System/
-│
-├── app.py
-├── data/
-│   ├── interns_data.csv
-│   └── performance_data.json
-│
-├── analysis/
-│   ├── scoring.py
-│   └── insights.py
-│
-├── recommendation/
-│   └── recommender.py
-│
-├── dashboard/
-│   └── charts.py
-│
-├── assets/
-│   └── images/
-│
+interntrack/
 ├── requirements.txt
-└── README.md
+├── main.py
+├── database.py
+├── ai_service.py
+├── intern_app.py
+├── admin_app.py
+└── utils.py
 ```
 
 ---
 
 
-## 🚀 Installation
+*Prerequisites:*
 
-```bash
-git clone https://github.com/your-username/intern-performance-tracking-system.git
-cd intern-performance-tracking-system
-pip install -r requirements.txt
-streamlit run app.py
-```
+1. Create a `.env` file with your Google Gemini API key: `API_KEY=your_google_gemini_api_key_here`
+2. Install dependencies: `pip install -r requirements.txt`
+    - `streamlit==1.40.0`
+    - `plotly==5.24.0`
+    - `pandas==2.2.2`
+    - `google-generativeai==0.8.2`
+    - `python-dotenv==1.0.1`
+3. Get your Google Gemini API key from Google AI Studio
+
+*Running the App:*
+
+1. `streamlit run main.py`
 
 ---
 
@@ -263,6 +258,16 @@ streamlit run app.py
 ✨ Industry-ready architecture  
 ✨ Scalable & modular design  
 ✨ Resume + recruiter friendly  
+
+---
+# 🔐 Admin Access
+
+Default admin credentials are provided for testing:
+
+- **Username:** pgt  
+- **Password:** 123  
+
+> ⚠️ Security Warning: Update these credentials before production use.
 
 ---
 
