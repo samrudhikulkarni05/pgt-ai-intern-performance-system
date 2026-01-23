@@ -260,6 +260,8 @@ interntrack/
 ✨ Resume + recruiter friendly  
 
 ---
+## Detailed Report
+
 # 🔐 Admin Access
 
 Default admin credentials are provided for testing:
